@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace schoolwork
+namespace Minichat_Server
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Server server = new Server(7777);
+
+            server.Start();
         }
     }
 }
