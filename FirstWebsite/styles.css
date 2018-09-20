@@ -1,0 +1,19 @@
+body
+{
+    background-color: tomato;
+}
+h1
+{
+    color: blueviolet;
+}
+ul
+{
+    color: chartreuse;
+}
+blockquote
+{
+    color:cyan;
+    border: 5pt;
+    border-style: double;
+    border-color: wheat;
+}
