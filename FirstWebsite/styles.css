@@ -1,19 +1,9 @@
 body
 {
-    background-color: tomato;
+    background-image: url("https://media.giphy.com/media/V5aB8bPkmK796/giphy.gif");
 }
 h1
 {
-    color: blueviolet;
-}
-ul
-{
-    color: chartreuse;
-}
-blockquote
-{
-    color:cyan;
-    border: 5pt;
-    border-style: double;
-    border-color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:tomato;
 }
