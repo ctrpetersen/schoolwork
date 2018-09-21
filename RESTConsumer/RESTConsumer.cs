@@ -23,14 +23,14 @@ namespace RESTConsumer
             Console.WriteLine("GETALL https://jsonplaceholder.typicode.com/todos");
             t.Start();
             IList<RESTData> dataL = GetAll("https://jsonplaceholder.typicode.com/todos");
-            Console.WriteLine(dataL[0].id + dataL[0].userId + dataL[0].title);
+            Console.WriteLine(dataL[dataL.Count-1].ToString());
             t.Stop();
             Console.WriteLine($"Time elapsed {t.Elapsed}\n");
 
             Console.WriteLine("GETONE https://jsonplaceholder.typicode.com/todos/3");
             t.Reset();
             t.Start();
-            Console.WriteLine(GetOne("https://jsonplaceholder.typicode.com/todos/3").userId);
+            Console.WriteLine(GetOne("https://jsonplaceholder.typicode.com/todos/3").ToString());
             Console.WriteLine($"Time elapsed {t.Elapsed}\n");
 
             Console.WriteLine("DELETE https://jsonplaceholder.typicode.com/todos/3");

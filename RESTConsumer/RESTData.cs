@@ -13,5 +13,10 @@
             id = Id;
             title = Title;
         }
+
+        public override string ToString()
+        {
+            return $"{nameof(userId)}: {userId}, {nameof(id)}: {id}, {nameof(title)}: {title}, {nameof(completed)}: {completed}";
+        }
     }
 }
