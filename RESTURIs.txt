@@ -1,0 +1,101 @@
+HOTELS
+Returns 1-* hotel objects, with parameters:
+- Hotel_no
+- Name
+- Address
+GET	| .../api/hotels OR .../api/hotels/id
+POST| .../api/hotels
+DEL	| .../api/hotels/id
+PUT | .../api/hotels/id
+
+ROOMS
+Returns 1-* room objects, with parameters:
+- Room_no
+- Hotel_no
+- Type
+- Price
+GET	| .../api/rooms OR .../api/rooms/id
+POST| .../api/rooms
+DEL	| .../api/rooms/id
+PUT | .../api/rooms/id
+
+BOOKINGS
+Returns 1-* bookings objects, with parameters:
+- Booking_id
+- Hotel_no
+- Guest_no
+- Day_from
+- Day_to
+- Room_no
+GET	| .../api/bookings OR .../api/bookings/id
+POST| .../api/bookings
+DEL	| .../api/bookings/id
+PUT | .../api/bookings/id
+
+GUESTS
+Returns 1-* guest objects, with parameters:
+- Guest_no
+- Name
+- Address
+GET	| .../api/guests OR .../api/guests/id
+POST| .../api/guests
+DEL	| .../api/guests/id
+PUT | .../api/guests/id
+
+-------------------------------------------------
+
+HOTELROOMS
+Returns 1-* rooms in 1-* hotels, with parameters:
+- Hotel_no
+- Name
+- Address
+- Room_no
+- Type
+- Price
+GET	| .../api/hotelrooms OR .../api/hotelrooms/id
+POST| .../api/hotelrooms
+DEL	| .../api/hotelrooms/id
+PUT | .../api/hotelrooms/id
+
+HOTELBOOKINGS
+Returns 1-* bookings in 1-* hotels, with parameters:
+- Hotel_no
+- Name
+- Address
+- Booking_id
+- Guest_no
+- Day_from
+- Day_to
+- Room_no
+GET	| .../api/hotelbookings OR .../api/hotelbookings/id
+POST| .../api/hotelbookings
+DEL	| .../api/hotelbookings/id
+PUT | .../api/hotelbookings/id
+
+HOTELGUESTS
+Returns 1-* guests in 1-* hotels, with parameters:
+- Hotel_no
+- Hotel_name
+- Hotel_address
+- Guest_no
+- Name
+- Address
+GET	| .../api/hotelguests OR .../api/hotelguests/id
+POST| .../api/hotelguests
+DEL	| .../api/hotelguests/id
+PUT | .../api/hotelguests/id
+
+ROOMBOOKINGS
+Returns 1-* bookings in 1-* rooms, with parameters:
+- Room_no
+- Hotel_no
+- Type
+- Price
+- Booking_id
+- Guest_no
+- Day_from
+- Day_to
+GET	| .../api/roombookings OR .../api/roombookings/id
+POST| .../api/roombookings
+DEL	| .../api/roombookings/id
+PUT | .../api/roombookings/id
