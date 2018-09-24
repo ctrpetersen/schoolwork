@@ -1,6 +1,10 @@
 $fontColor: #0091aa;
 $colorHeading: #be4a14;
-#content  // div with id: content
+#content1  // div with id: content
+{
+    color: $fontColor;
+}
+#content2  // div with id: content
 {
     color: $fontColor;
 }
