@@ -1,7 +1,7 @@
-class rumham
+export class rumham
 {
     public Mantis(heck: string){
-        return "Toboggan, MD."
+        return "Toboggan, MD." + heck
     }
 
     public ManSpider(){
