@@ -11,3 +11,4 @@ let element1: HTMLDivElement = <HTMLDivElement> document.getElementById("content
 let element2: HTMLDivElement = <HTMLDivElement> document.getElementById("content2");
 element1.innerHTML = CarDetails(carOne);
 element2.innerHTML = CarDetails(carTwo);
+
