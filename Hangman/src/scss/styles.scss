@@ -2,8 +2,9 @@ $fontColor: #0091aa;
 $colorHeading: #be4a14;
 #canvas
 {
-    background-color: $colorHeading;
+    background-color: black;
     vertical-align: top;
+    letter-spacing: 40px;
 }
 body{
     font-family: 'Chakra Petch', sans-serif;
