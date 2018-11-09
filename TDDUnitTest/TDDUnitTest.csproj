@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CountOccurences\CountOccurences.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="CountOccurences">
       <HintPath>..\CountOccurences\bin\Debug\netcoreapp2.1\CountOccurences.dll</HintPath>
     </Reference>

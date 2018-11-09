@@ -32,13 +32,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RESTService", "RESTService"
 		RESTURIs.txt = RESTURIs.txt
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TypeScript", "TypeScript", "{31282945-6FE2-46D8-BE79-D1F2690344FD}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDD", "TDD", "{3F0E8FB3-AEE3-4095-BB8B-788A7F4C4E37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDUnitTest", "TDDUnitTest\TDDUnitTest.csproj", "{D5686431-CDE9-4A47-BD68-078636607271}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDDUnitTest", "TDDUnitTest\TDDUnitTest.csproj", "{D5686431-CDE9-4A47-BD68-078636607271}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountOccurences", "CountOccurences\CountOccurences.csproj", "{67B8676F-576C-4AC7-97C9-F36512F4048E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountOccurences", "CountOccurences\CountOccurences.csproj", "{67B8676F-576C-4AC7-97C9-F36512F4048E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UDP", "UDP", "{FA9AC6BD-294D-4B16-B751-CEEA426D7ECA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
