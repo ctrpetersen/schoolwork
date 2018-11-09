@@ -3,6 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using ModelLib;
+using Newtonsoft.Json;
 
 namespace JSONUDPSender
 {
@@ -23,7 +24,7 @@ namespace JSONUDPSender
             using (UdpClient client = new UdpClient())
             {
                 client.EnableBroadcast = true;
-                var cByte = Encoding.ASCII.GetBytes(c.ToString());
+                var cByte = Encoding.ASCII.GetBytes(JsonConvert.SerializeObject(c));
 
                 client.Send(cByte, cByte.Length, endP);
 
